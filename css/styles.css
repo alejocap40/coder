@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "EB Garamond";
+}
+
+body {
+    background-color: #88868a;
+}
+
+/* -------------------------header----------------------------------------------------- */
+
+header{
+    position: sticky;
+    top: 0;
+    }
+
+.headerPrin {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.headerPrin li {
+    list-style-type: none;
+}
+
+.boxNav {
+    margin: auto;
+}
+
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style-type: none;
+    font-size: 0;
+} 
+
+nav li{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    font-size: 28px;
+}
+
+nav ul ul{
+    position: absolute;
+    display: none;
+}
+
+nav ul ul li{
+    display: block;
+}
+
+nav {
+    background-color: #605d63;
+}
+
+ul li:hover ul{
+    display: block;
+    background-color: #605d63;
+}
+
+header {
+    background-color: #605d63;
+}
+
+header img {
+    width: 35px;
+}
+
+.headerLogo img {
+    width: 70px;
+    height: 70px;
+}
+
+.headerContacto img {
+    width: 35px;
+    height: 35px;
+}
+
+/* ----------------------------------------------------------Main-------------------------------------------- */
+
+
+main h2 {
+    text-transform: uppercase;
+    text-align-last: center;
+    margin: 40px;
+}
+
+
+
+.prodDest {
+    display: flex;
+    justify-content: center;
+}
+
+.destacados {
+    display:block;
+    }
+
+.destacados img {   
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px; 
+    width: 250px;
+    margin-right: 50px;
+    
+}
+
+.destacados h3 {
+    text-align-last: center;
+    
+}
+
+.destacados h4 {
+    text-align-last: center;
+}
+.destacados h5 {
+    text-align-last: center;
+}
+
+.boton a {
+    text-decoration: none;
+}
+
+.boton {
+    all: unset;
+    background-color:#605d63;
+    font-size: 1.3rem;
+    border-radius: 2px;
+    text-decoration: none;
+    color:white;
+    transition-duration: 0.4;
+    text-align: center;
+    width: 130px;
+    height: 50px;
+}
+
+
+
+.boton:hover{
+    background-color: white;
+    color: #605d63;
+}
+
+/* ------------------------------------FOOTER---------------------------------------- */
+
+footer {
+background-color: #605d63;  
+}
+
+.pie {
+    display: flex;
+    margin-top: 15%;
+    background-color: #605d63;
+    justify-content: space-between;
+}
+
+.pie li {
+    list-style-type: none;
+}
+.pieContactenos {
+    margin-left: 40px;
+    text-align: left;
+    background-color: #605d63;
+    
+}
+
+.pieContactenos img {
+    width: 35px;
+}
+
+.pieSeguinos{
+    margin-right: 100px;
+    text-align: right;
+    background-color: #605d63;
+    
+
+    
+
+}
+
+.pieSeguinos img {
+    width: 35px;
+    }
+
+.botonWhatsApp img{
+        width: 70px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+}
+
+.enLinea {
+    display: inline-block;
+}
+
+.pie li h4 {
+    margin-left: 10px;
+}
+
+.pieSeguinos p {
+    margin-top: 40px;
+    
+}
+
+.pieSeguinos ul {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/* -----------------------------Productos----------------------------------------- */
+
+.prodPrin {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.descrip {
+    display: block;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.prodPrinImg img {
+    border: 2px black solid;
+    border-radius: 4px;
+}
+
+.precio p {
+    font-size: 1.4rem;
+}
+
+.botonProd {
+    all: unset;
+    background-color:#605d63;
+    font-size: 1.3rem;
+    border-radius: 2px;
+    text-decoration: none;
+    color:white;
+    transition-duration: 0.4;
+    text-align: center;
+    width: 130px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.botonProd:hover{
+    background-color: white;
+    color: #605d63;
+}
+
+.prodDescripDos  {
+    font-size: 1.4rem;
+}
+
+.prodDescrip {
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+/* --------------------------CONTACTO---------------------------------- */
+
+.formu {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.consultaDos textarea{
+    display: block;
+}
+
+.nombres label {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    }
+
+.campos input {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.nombres button {
+    display: block;
+}
+
+.mapa {
+    margin: 80px 0px 0px 100px;
+}
+
+
+
+
+
