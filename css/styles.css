@@ -93,7 +93,10 @@ main h2 {
     margin: 40px;
 }
 
-
+.destacados img:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
 
 .prodDest {
     display: flex;
